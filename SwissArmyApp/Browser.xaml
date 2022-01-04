@@ -1,0 +1,22 @@
+﻿<Window x:Class="SwissArmyApp.Browser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SwissArmyApp"
+        xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        mc:Ignorable="d"
+        Title="Google" Height="600" Width="1000">
+
+    <Grid>
+
+        <cefSharp:ChromiumWebBrowser x:Name="chrome" Address="https://www.youtube.com/channel/UCjutYW-tnwVQ5anGx7gFQNw/videos"></cefSharp:ChromiumWebBrowser>
+        
+    </Grid>
+</Window>
+<!--
+→
+←
+⌂
+⟳
+-->

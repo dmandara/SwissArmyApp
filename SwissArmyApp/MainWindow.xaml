@@ -1,0 +1,26 @@
+﻿<Window x:Class="SwissArmyApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SwissArmyApp"
+        xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        xmlns:Properties="clr-namespace:SwissArmyApp.Properties"
+        mc:Ignorable="d"
+        Title="{x:Static Properties:Resources.AppName}" Height="450" Width="800">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Click="Button_Click">Calculate</Button>
+        <Button Grid.Column="1" Click="Button_Click_1">Write</Button>
+        <Button Grid.Column="2" Click="Button_Click_3">YouTube</Button>
+        <Button Grid.Column="3" Click="Button_Click_2">Destroy</Button>
+
+    </Grid>
+</Window>
